@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./client/",
+    "paths": {
+      "@org/shared/*": ["../../shared/*"],
+      "org/*": ["../../shared/*"]
+    },
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "public/dist",
+    "node_modules"
+  ]
+}
